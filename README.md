@@ -20,9 +20,13 @@ QuickCraveSnacks/
 ├── css/styles.css        All styling + brand tokens (colors, fonts)
 ├── js/main.js             Nav, scroll animations, form handling
 ├── assets/
-│   ├── logo.svg           Logo (on-brand placeholder — see §3)
-│   ├── favicon.svg        Browser tab icon
-│   └── img/               Vending-machine illustrations (placeholders — see §3)
+│   ├── logo.png           Logo (real artwork)
+│   ├── favicon.png        Browser tab icon (derived from the logo)
+│   └── img/
+│       ├── hero-machine.png       Real machine photo, background removed (homepage hero)
+│       ├── snack-machine.svg      Illustration placeholder — see §3
+│       ├── beverage-machine.svg   Illustration placeholder — see §3
+│       └── combo-machine.svg      Illustration placeholder — see §3
 └── README.md              You're reading it
 ```
 
@@ -40,32 +44,30 @@ plain files, so you can ask Claude Code to tweak copy, colors, or add pages with
 
 ---
 
-## 3. ⚠️ Replace the logo and machine images with your real assets
+## 3. ⚠️ Three machine photos are still placeholders
 
-No logo file was attached in this session, so `assets/logo.svg` and `assets/favicon.svg` are
-**on-brand SVG placeholders** (black rounded badge + gold lightning bolt) built to match the
-site's palette. The vending-machine photos are also **SVG illustrations**, not real photos.
+The **logo** (`assets/logo.png`, "Quick Crave Snacks" badge mark), the **favicon**
+(`assets/favicon.png`), and the **homepage hero photo** (`assets/img/hero-machine.png`, a real
+ambient vending machine shot with the background removed) are all real assets and already wired
+into every page.
 
-**To swap in your real logo:**
-1. Add your file to `assets/` (e.g. `assets/logo.png`).
-2. Find-and-replace `assets/logo.svg` → `assets/logo.png` across `index.html`, `about.html`,
-   `machines.html`, and `contact.html` (each page references it twice: nav + footer).
-3. Do the same for the favicon `<link rel="icon">` tag in each page's `<head>`.
+Still placeholders: the three spec-sheet illustrations on `machines.html`
+(`assets/img/snack-machine.svg`, `beverage-machine.svg`, `combo-machine.svg`) are **SVG
+illustrations**, not real photos.
 
-**To swap in real machine photos**, drop your files into `assets/img/` using these exact names,
-then update the matching `src="..."` in the HTML (search each file for `-machine.svg` and change
-the extension):
+**To swap in real photos for those**, drop your files into `assets/img/` using these exact names,
+then update the matching `src="..."` in `machines.html` (search for `-machine.svg` and change the
+extension):
 
 | Replace this placeholder            | With your photo named        |
 |-------------------------------------|------------------------------|
-| `assets/img/hero-machine.svg`       | `hero-machine.jpg` (or .png) |
 | `assets/img/snack-machine.svg`      | `snack-machine.jpg`          |
 | `assets/img/beverage-machine.svg`   | `beverage-machine.jpg`       |
 | `assets/img/combo-machine.svg`      | `combo-machine.jpg`          |
 
 In Claude Code you can just say: *"replace the machine SVGs with the .jpg photos I added to
-assets/img"* or *"replace the placeholder logo with the file I added to assets/"* and it'll
-update every reference. Transparent PNGs on a dark background look best for the hero.
+assets/img"* and it'll update every reference. Transparent PNGs on a dark background look best
+if any of these sit on a dark section.
 
 Also confirm the **spec numbers** on `machines.html` (capacity, dimensions, selections) against
 your actual vending machine models — realistic typical values were used as a starting point.
