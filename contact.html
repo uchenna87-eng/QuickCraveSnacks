@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get a Free Vending Machine — Contact Quick Crave Snacks</title>
+  <meta name="description" content="Request a free vending machine for your Chicago-area business. Tell us about your space and we'll follow up with a recommendation — no cost to install." />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="nav-logo" href="index.html" aria-label="Quick Crave Snacks home">
+        <img src="assets/logo.svg" alt="Quick Crave Snacks logo" />
+        <span class="wordmark">Quick Crave<b>Snacks</b></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="machines.html">Machines</a>
+        <a href="index.html#why">Why Us</a>
+        <a href="index.html#locations">Locations</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a class="btn btn-primary btn-sm nav-cta" href="contact.html">Get a Free Machine</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+  <!-- ===================== PAGE HERO ===================== -->
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Get in touch</p>
+      <h1>Get a free vending machine for your business</h1>
+      <p class="lede">Tell us a bit about your space and we'll follow up with a machine recommendation and next steps — no cost, no obligation.</p>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT FORM + INFO ===================== -->
+  <section class="section" style="padding-top:0">
+    <div class="container contact-grid">
+      <div class="form-card reveal">
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" data-demo="true">
+          <div class="field-row">
+            <div class="field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required autocomplete="name" />
+            </div>
+            <div class="field">
+              <label for="company">Business name</label>
+              <input type="text" id="company" name="company" required autocomplete="organization" />
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required autocomplete="email" />
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="location-type">Location type</label>
+            <select id="location-type" name="location_type">
+              <option value="">Select one</option>
+              <option>Office</option>
+              <option>Medical Clinic</option>
+              <option>Manufacturing / Warehouse</option>
+              <option>Apartment Building</option>
+              <option>School</option>
+              <option>Fitness Center</option>
+              <option>Hotel</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="machine-type">Machine interest</label>
+            <select id="machine-type" name="machine_type">
+              <option value="">No preference / need a recommendation</option>
+              <option>Snack Machine</option>
+              <option>Beverage Machine</option>
+              <option>Snack + Beverage Combo</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Tell us about your space</label>
+            <textarea id="message" name="message" placeholder="Approximate foot traffic, break room size, any product preferences..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Request My Free Machine</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+          <p class="form-note">We typically respond within 1 business day. No cost, no obligation.</p>
+        </form>
+      </div>
+
+      <aside class="contact-aside reveal">
+        <div class="info-block">
+          <div class="ic-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            <div>
+              <h3>Email</h3>
+              <a href="mailto:hello@quickcravesnacks.com">hello@quickcravesnacks.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="ic-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.4-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg>
+            <div>
+              <h3>Phone</h3>
+              <a href="tel:+13125550137">(312) 555-0137</a>
+            </div>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="ic-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 10c0 6-8 11-8 11s-8-5-8-11a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+            <div>
+              <h3>Service area</h3>
+              <p>Greater Chicago Area, IL</p>
+            </div>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="ic-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+            <div>
+              <h3>Response time</h3>
+              <p>Within 1 business day</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand-line">
+            <img src="assets/logo.svg" alt="Quick Crave Snacks logo" />
+            <span class="wordmark">Quick Crave<b>Snacks</b></span>
+          </div>
+          <p>Family-owned vending for Chicago-area offices, apartments, manufacturing, schools, and healthcare. We install, stock, and maintain — at no cost to you.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="machines.html">Our Machines</a></li>
+            <li><a href="index.html#why">Why Choose Us</a></li>
+            <li><a href="index.html#locations">Locations We Serve</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Machines</h4>
+          <ul>
+            <li><a href="machines.html#snacks">Snack Machines</a></li>
+            <li><a href="machines.html#beverages">Beverage Machines</a></li>
+            <li><a href="machines.html#combo">Snack + Beverage</a></li>
+            <li><a href="contact.html">Get a Free Machine</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li class="contact-line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><a href="mailto:hello@quickcravesnacks.com">hello@quickcravesnacks.com</a></li>
+            <li class="contact-line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.4-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg><a href="tel:+13125550137">(312) 555-0137</a></li>
+            <li class="contact-line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 10c0 6-8 11-8 11s-8-5-8-11a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="2.6"/></svg><span>Greater Chicago Area, IL</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Quick Crave Snacks LLC. All rights reserved.</span>
+        <span>Snack. Sip. Repeat.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

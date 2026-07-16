@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 460" width="300" height="460" role="img" aria-labelledby="snackMachineTitle">
+  <title id="snackMachineTitle">Quick Crave Snacks snack vending machine</title>
+  <defs>
+    <linearGradient id="snackBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22242C"/>
+      <stop offset="1" stop-color="#101116"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="18" y="10" width="264" height="430" rx="16" fill="url(#snackBody)" stroke="#3A3D46" stroke-width="2"/>
+
+  <rect x="32" y="24" width="236" height="40" rx="7" fill="#0B0C0E"/>
+  <path d="M52 30 42 46h7l-3 13 14-18h-7l2-11Z" fill="#FFCC00"/>
+  <text x="70" y="49" font-family="Archivo, sans-serif" font-weight="900" font-size="16" fill="#FFCC00">SNACKS</text>
+
+  <rect x="32" y="72" width="188" height="270" rx="8" fill="#20222A" stroke="#454955" stroke-width="1.5"/>
+
+  <g fill="#FFCC00">
+    <rect x="42" y="84" width="24" height="50" rx="4"/>
+    <rect x="70" y="84" width="24" height="50" rx="4"/>
+    <rect x="98" y="84" width="24" height="50" rx="4"/>
+    <rect x="126" y="84" width="24" height="50" rx="4"/>
+    <rect x="154" y="84" width="24" height="50" rx="4"/>
+    <rect x="182" y="84" width="24" height="50" rx="4"/>
+  </g>
+  <g fill="#E89C00">
+    <rect x="42" y="144" width="24" height="50" rx="4"/>
+    <rect x="70" y="144" width="24" height="50" rx="4"/>
+    <rect x="98" y="144" width="24" height="50" rx="4"/>
+    <rect x="126" y="144" width="24" height="50" rx="4"/>
+    <rect x="154" y="144" width="24" height="50" rx="4"/>
+    <rect x="182" y="144" width="24" height="50" rx="4"/>
+  </g>
+  <g fill="#21D19F">
+    <rect x="42" y="204" width="24" height="50" rx="4"/>
+    <rect x="70" y="204" width="24" height="50" rx="4"/>
+    <rect x="98" y="204" width="24" height="50" rx="4"/>
+    <rect x="126" y="204" width="24" height="50" rx="4"/>
+    <rect x="154" y="204" width="24" height="50" rx="4"/>
+    <rect x="182" y="204" width="24" height="50" rx="4"/>
+  </g>
+  <g fill="#8C93A3" opacity=".55">
+    <rect x="42" y="264" width="24" height="50" rx="4"/>
+    <rect x="70" y="264" width="24" height="50" rx="4"/>
+    <rect x="98" y="264" width="24" height="50" rx="4"/>
+    <rect x="126" y="264" width="24" height="50" rx="4"/>
+    <rect x="154" y="264" width="24" height="50" rx="4"/>
+    <rect x="182" y="264" width="24" height="50" rx="4"/>
+  </g>
+  <g stroke="#0B0C0E" stroke-width="1.4" opacity=".35">
+    <path d="M42 90q12 5 24 0M70 90q12 5 24 0M98 90q12 5 24 0M126 90q12 5 24 0M154 90q12 5 24 0M182 90q12 5 24 0"/>
+    <path d="M42 150q12 5 24 0M70 150q12 5 24 0M98 150q12 5 24 0M126 150q12 5 24 0M154 150q12 5 24 0M182 150q12 5 24 0"/>
+    <path d="M42 210q12 5 24 0M70 210q12 5 24 0M98 210q12 5 24 0M126 210q12 5 24 0M154 210q12 5 24 0M182 210q12 5 24 0"/>
+  </g>
+
+  <rect x="228" y="72" width="42" height="270" rx="8" fill="#14151A" stroke="#3A3D46" stroke-width="1.5"/>
+  <rect x="236" y="84" width="26" height="36" rx="4" fill="#21D19F"/>
+  <g fill="none" stroke="#565B66" stroke-width="1.3">
+    <rect x="236" y="128" width="26" height="16" rx="3"/>
+    <rect x="236" y="150" width="26" height="16" rx="3"/>
+    <rect x="236" y="172" width="26" height="16" rx="3"/>
+    <rect x="236" y="194" width="26" height="16" rx="3"/>
+  </g>
+  <rect x="236" y="240" width="26" height="46" rx="4" fill="#0B0C0E"/>
+  <circle cx="249" cy="252" r="3.4" fill="#FFCC00"/>
+
+  <rect x="32" y="358" width="236" height="50" rx="7" fill="#0E0F13" stroke="#3A3D46" stroke-width="1.5"/>
+  <rect x="46" y="371" width="208" height="24" rx="4" fill="#050506"/>
+
+  <rect x="18" y="418" width="264" height="18" rx="5" fill="#08090B"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Quick Crave Snacks logo">
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="#0B0C0E"/>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="none" stroke="#FFCC00" stroke-width="2"/>
+  <path d="M36 10 18 34h10l-4 20 20-26H34l2-18Z" fill="#FFCC00"/>
+</svg>
