@@ -24,8 +24,8 @@ QuickCraveSnacks/
 │   ├── favicon.png        Browser tab icon (derived from the logo)
 │   └── img/
 │       ├── hero-machine.png       Real machine photo, background removed (homepage hero)
+│       ├── beverage-machine.png   Real machine photo, background removed (machines.html)
 │       ├── snack-machine.svg      Illustration placeholder — see §3
-│       ├── beverage-machine.svg   Illustration placeholder — see §3
 │       └── combo-machine.svg      Illustration placeholder — see §3
 └── README.md              You're reading it
 ```
@@ -44,16 +44,18 @@ plain files, so you can ask Claude Code to tweak copy, colors, or add pages with
 
 ---
 
-## 3. ⚠️ Three machine photos are still placeholders
+## 3. ⚠️ Two machine photos are still placeholders
 
-The **logo** (`assets/logo.png`, "Quick Crave Snacks" badge mark), the **favicon**
-(`assets/favicon.png`), and the **homepage hero photo** (`assets/img/hero-machine.png`, a real
-ambient vending machine shot with the background removed) are all real assets and already wired
+The **logo** (`assets/logo.png`), **favicon** (`assets/favicon.png`), **homepage hero photo**
+(`assets/img/hero-machine.png`), and the **Beverage Machines photo**
+(`assets/img/beverage-machine.png`) are all real assets, background-removed, and already wired
 into every page.
 
-Still placeholders: the three spec-sheet illustrations on `machines.html`
-(`assets/img/snack-machine.svg`, `beverage-machine.svg`, `combo-machine.svg`) are **SVG
-illustrations**, not real photos.
+Still placeholders: the **Snack Machines** and **Snack + Beverage Combo** spec-sheet
+illustrations on `machines.html` (`assets/img/snack-machine.svg`, `combo-machine.svg`) are **SVG
+illustrations**, not real photos. (A frozen/fresh-meal machine photo was considered for one of
+these slots but didn't match either category, so it wasn't used — the site has no
+fresh/frozen-meal category today.)
 
 **To swap in real photos for those**, drop your files into `assets/img/` using these exact names,
 then update the matching `src="..."` in `machines.html` (search for `-machine.svg` and change the
@@ -62,7 +64,6 @@ extension):
 | Replace this placeholder            | With your photo named        |
 |-------------------------------------|------------------------------|
 | `assets/img/snack-machine.svg`      | `snack-machine.jpg`          |
-| `assets/img/beverage-machine.svg`   | `beverage-machine.jpg`       |
 | `assets/img/combo-machine.svg`      | `combo-machine.jpg`          |
 
 In Claude Code you can just say: *"replace the machine SVGs with the .jpg photos I added to
