@@ -122,8 +122,8 @@ and fine to start. Either way, keep the address consistent with the site (`hello
 > Want a different address (e.g. `info@`, `sales@`, `nathan@`)? Do a find-and-replace for
 > `hello@quickcravesnacks.com` across all four HTML files, or ask Claude Code to do it.
 
-Also update the **phone number** — the site uses a placeholder `(312) 555-0137`. Find-and-replace
-it (and `+13125550137` in the `tel:` links) with your real number.
+The **phone number** is set to `(312) 519-3544` across the site (`tel:+13125193544` in the `tel:`
+links). If it changes, find-and-replace both forms across the four HTML files.
 
 ---
 
